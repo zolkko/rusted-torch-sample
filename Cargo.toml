@@ -1,0 +1,18 @@
+[package]
+name = "rusted-torch-sample"
+version = "0.1.0"
+edition = "2021"
+authors = ["zolkko <zolkko@gmail.com>"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1"
+itertools = "0.10"
+tracing = "0.1"
+tracing-subscriber = "0.3"
+ndarray = "0.15"
+tokenizers = "0.11.3"
+tch = "0.8.0"
+rust-bert = "0.19.0"
+rust_tokenizers = "7"
